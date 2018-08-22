@@ -27,7 +27,7 @@ class SourceMorph(object):
     ----------
     subject_from : str | None
         Name of the original subject as named in the SUBJECTS_DIR.
-        If None src[0]['subject_his_id]' will be used (default).
+        If None src[0]['subject_his_id]' will be used by default.
     subject_to : str | array | list of two arrays
         Name of the subject to which to morph as named in the SUBJECTS_DIR.
         If morphing a surface source estimate, subject_to can also be an array
